@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "python-redis"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+redis = "^4.4.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20.0"
+pytest = "^6.0"
+pytest-cov = "^3.0.0"
+isort = "^5.10.1"
+black = "^22.8.0"
+pyproject-flake8 = "^5.0.4"
+
+[tool.poetry.scripts]
+local-redis = "python_redis.redisx_hello_world:main"
+import-redis = "python_redis.import_redis:main"
+
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
