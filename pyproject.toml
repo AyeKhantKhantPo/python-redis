@@ -19,8 +19,8 @@ pyproject-flake8 = "^5.0.4"
 [tool.poetry.scripts]
 local-redis = "python_redis.redisx_hello_world:main"
 import-redis = "python_redis.import_redis:main"
-
-
+py-client = "python_redis.py_client:main"
+redis-json = "python_redis.redis_json:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
