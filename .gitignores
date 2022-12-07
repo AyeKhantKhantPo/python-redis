@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+src/python_redis/__pycache__/
+tests/__pycache__/
 
 # C extensions
 *.so
